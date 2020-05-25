@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px #414141 ;
+}
+
+.container { 
+    background: darkgray;
+    border-radius: 10px;
+    width: 600px; 
+    padding: 5px;        
+    text-align: center; 
+}
+
+.content {     
+    background-color: whitesmoke;       
+    border-bottom-left-radius: 10px;        
+    border-bottom-right-radius: 10px;    
+    padding: 5px;    
+    text-align: center; 
+}
+
+
+.content h1 {        
+    text-shadow: none;
+    color: black;
+}
+
+.header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url("imagens/time.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.flexbox-container {    
+    display: flex;            
+    margin: 20px;
+    align-items: center;
+}
+
+.input {    
+    border-radius: 10px;
+    border: #414141 solid 1.5px;
+    padding: 10px;
+    flex-grow: 5;  
+    margin: 15px;
+}
+
+.li-flex {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;        
+}
+
+.li-flex input {        
+    margin: 0 20px;
+}
+
+.li-flex label {
+    margin: 0 10px;
+    flex-grow: 3;
+    text-align: start;    
+}
+
+.li-flex button {
+    margin: 0 10px;    
+    flex-grow: 10px;
+}
+
+.addButton {    
+    padding: 5px;
+    background-color: #414141;
+    color: white;
+    border-radius: 10px;    
+    font-size: 1.5em;
+    margin: 15px;
+    flex-grow: 1;         
+}
